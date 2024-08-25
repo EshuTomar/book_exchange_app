@@ -56,8 +56,9 @@ The application handles basic edge cases such as:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/book-exchange-platform.git
-   cd book-exchange-platform
+   git clone https://github.com/EshuTomar/book_exchange_app.git
+   cd book_exchange_platform
+   ...
 
 
 ## Available Scripts
