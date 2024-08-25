@@ -29,7 +29,6 @@ The **Book Exchange Platform** is a web application designed for book lovers to 
 
 The project is structured as follows:
 
-
 book-exchange-platform/
 ├── public/
 ├── src/
@@ -49,6 +48,7 @@ book-exchange-platform/
 ├── package.json
 ├── README.md
 └── LICENSE
+
 
 
 
