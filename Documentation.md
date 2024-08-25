@@ -29,26 +29,25 @@ The **Book Exchange Platform** is a web application designed for book lovers to 
 
 The project is structured as follows:
 
-book-exchange-platform/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── Navbar/
-│   │   ├── BookListing/
-│   │   ├── BookDiscovery/
-│   │   ├── Matchmaking/
-│   │   ├── Authentication/
-│   │   └── ExchangeRequests/
-│   ├── firebaseConfig.js
-│   ├── App.js
-│   ├── index.js
-│   └── styles/
-├── .gitignore
-├── package.json
-├── README.md
-└── LICENSE
-
+book-exchange-platform/ <br/>
+├── public/     <br/>                                      
+├── src/<br/>
+│   ├── assets/ <br/>  
+│   ├── components/ <br/>  
+│   │   ├── Navbar/ <br/>  
+│   │   ├── BookListing/ <br/>  
+│   │   ├── BookDiscovery/<br/>  
+│   │   ├── Matchmaking/<br/>  
+│   │   ├── Authentication/<br/>  
+│   │   └── ExchangeRequests/<br/>  
+│   ├── firebaseConfig.js<br/>  
+│   ├── App.js<br/>  
+│   ├── index.js<br/>  
+│   └── styles/<br/>  
+├── .gitignore<br/>  
+├── package.json<br/>  
+├── README.md<br/>  
+└── LICENSE<br/>  
 
 
 
