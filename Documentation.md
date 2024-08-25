@@ -130,5 +130,5 @@ The application includes handling for various edge cases:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/book-exchange-platform.git
-   cd book-exchange-platform
+   git clone https://github.com/EshuTomar/book_exchange_platform.git
+   cd book_exchange_platform
