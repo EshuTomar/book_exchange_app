@@ -1,0 +1,77 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 5%;
+    background-color: #F5F5DC;
+  }
+  
+  .home-content {
+    max-width: 50%;
+    text-align: left;
+    animation: fadeInLeft 1.5s ease-in-out;
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    color: #1E382E;
+    margin-bottom: 20px;
+  }
+  
+  .home-quote {
+    font-size: 1.5rem;
+    color: #22635B;
+    margin-bottom: 40px;
+    font-style: italic;
+  }
+  
+  .get-started-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #F55642;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-started-button:hover {
+    background-color: #D94431;
+  }
+  
+  .home-image {
+    max-width: 40%;
+    animation: fadeInRight 1.5s ease-in-out;
+  }
+  
+  .home-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Animations */
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  

@@ -1,0 +1,65 @@
+.matchmaking-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.matchmaking-container h2 {
+  color: #1E382E;
+  margin-bottom: 20px;
+}
+
+.match-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.match-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.match-card:hover {
+  transform: translateY(-10px);
+}
+
+.match-card h3 {
+  color: #22635B;
+  margin-bottom: 10px;
+}
+
+.match-card p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.request-button {
+  padding: 10px 20px;
+  background-color: #F55642;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.request-button:hover {
+  background-color: #D94431;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

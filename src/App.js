@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home/Home';
+import Login from './components/Login/Login';
+import Register from './components/Register/Register';
+import BookList from './components/BookList/BookList';
+import BookDiscovery from './components/BookDiscovery/BookDiscovery';
+import Matchmaking from './components/Matchmaking/Matchmaking';
+import Navbar from './components/Navbar/Navbar';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar/>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
+      <Route path="/books" element={<BookList />} />
+      <Route path="/discovery" element={<BookDiscovery />} />
+      <Route path="/matchmaking" element={<Matchmaking />} />
+    </Routes>
+    
+  </Router>
+  
   );
 }
 
