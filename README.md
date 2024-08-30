@@ -1,6 +1,65 @@
-# Getting Started with Create React App
+# Book Exchange Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The Book Exchange Platform is a web application that allows users to list books they own and wish to exchange with others. Users can browse through the books listed by others, find matches based on their preferences, and initiate exchange requests. This platform provides a seamless and user-friendly interface for book lovers to connect and exchange books.
+
+## Table of Contents
+- [Features](#features)
+- [User Interface (UI) Design](#user-interface-ui-design)
+- [Functionality](#functionality)
+- [Database Integration](#database-integration)
+- [Edge Case Handling](#edge-case-handling)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tech Stack](#tech-stack)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+- **User Authentication**: Secure user registration, login, and logout functionality.
+- **Book Listing**: Users can list books they want to exchange, providing details like title, author, genre, and cover image.
+- **Book Discovery**: Users can browse and search through books listed by others, with filters for genre, author, etc.
+- **Matchmaking**: A matching algorithm suggests potential matches based on users' book preferences.
+- **Exchange Request**: Users can send and receive exchange requests with other users.
+
+## User Interface (UI) Design
+The UI is designed to be clean, intuitive, and user-friendly, utilizing an existing CSS library for styling.
+
+- **User Registration and Login**: A page for users to sign up, log in, and log out.
+- **Book Listing**: A page where users can list books they own and want to exchange.
+- **Book Discovery**: A page where users can browse books listed by others, with filters for genre, author, etc.
+- **Matchmaking Page**: A page where users can see potential matches based on their book preferences and initiate a book exchange.
+
+## Functionality
+The application includes the following features:
+
+- **User Authentication**: Users can securely register, log in, and log out.
+- **Book Management**: Users can list, edit, and remove books they want to exchange.
+- **Book Matching**: A basic matching algorithm suggests potential matches for users based on the books they have and the books they want.
+- **Exchange Request**: Users can send and receive exchange requests with other users.
+
+## Database Integration
+The application integrates with Firebase Firestore to store user information, book listings, and exchange requests.
+
+- **User Information**: Stores user profiles and authentication data.
+- **Book Listings**: Stores details of books listed by users.
+- **Exchange Requests**: Manages and tracks exchange requests between users.
+
+## Edge Case Handling
+The application handles basic edge cases such as:
+
+- **Input Validation**: Ensuring no empty fields and valid book titles during book listing.
+- **Duplicate Book Prevention**: Preventing users from listing duplicate books.
+- **No Matches Found**: Handling cases where no book matches are found.
+
+## Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/EshuTomar/book_exchange_app.git
+   cd book_exchange_platform
+   ...
+
 
 ## Available Scripts
 
